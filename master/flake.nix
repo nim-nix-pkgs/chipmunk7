@@ -11,7 +11,6 @@
   inputs.src-chipmunk7-master.ref   = "refs/heads/master";
   inputs.src-chipmunk7-master.owner = "avahe-kellenberger";
   inputs.src-chipmunk7-master.repo  = "nim-chipmunk";
-  inputs.src-chipmunk7-master.dir   = "";
   inputs.src-chipmunk7-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
