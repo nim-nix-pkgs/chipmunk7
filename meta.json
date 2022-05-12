@@ -2,13 +2,73 @@
   "name": "chipmunk7",
   "url": "https://github.com/avahe-kellenberger/nim-chipmunk",
   "method": "git",
-  "tags": [],
+  "tags": [
+    {
+      "name": "chipmunk7",
+      "version": "0.3.0",
+      "author": "Oleh Prypin",
+      "desc": "Bindings for Chipmunk, a fast and lightweight 2D game physics library.",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.10.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.10.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.3.0"
+    }
+  ],
   "description": "Bindings for Chipmunk, a fast and lightweight 2D game physics library.",
   "license": "MIT",
   "web": "https://github.com/avahe-kellenberger/nim-chipmunk",
   "refs": [
-    "fatal: unable to access 'https://github.com/avahe-kellenberger/nim-chipmunk/': Failed to connect to github.com port 443 after 144752 ms: Network is unreachable",
+    "refs/heads/master",
+    "refs/heads/updates",
+    "refs/tags/v0.3.0",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "chipmunk7",
+      "version": "7.0.3",
+      "author": "Avahe Kellenberger",
+      "desc": "Bindings for Chipmunk, a fast and lightweight 2D game physics library.",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.6",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.6"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
